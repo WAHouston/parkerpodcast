@@ -55,12 +55,29 @@ a.tab:hover {
 
 main {
     flex: 1;
+    overflow: auto;
 }
 
 #main-title {
     text-align: center;
     font-size: 70px;
     margin-top: 2%;
+}
+
+
+.home-carousel {
+    width: auto;
+    height: auto;
+}
+
+.carousel-div {
+    text-align: center;
+}
+
+.carousel-image {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
 }
 
 #re-title {
@@ -109,6 +126,7 @@ footer {
     background: black;
     display: flex;
     justify-content: space-evenly;
+    /* overflow: auto; */
 }
 
 .social-link {
@@ -169,3 +187,4 @@ footer {
     width: 90%;
     overflow: auto;
 }
+
