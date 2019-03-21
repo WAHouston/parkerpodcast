@@ -1,0 +1,129 @@
+/* Home */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0 auto;
+    font-size: 25px;
+    overflow: auto;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+#home-link {
+    /* border: 1px solid white; */
+}
+
+#schedule-link {
+    /* border: 1px solid white; */
+}
+
+#episodes-link {
+    /* border: 1px solid white; */
+}
+
+#contact-link {
+    /* border: 1px solid white; */
+}
+
+.divider {
+    color: white;
+    font-size: 30px;
+}
+
+main {
+    flex: 1;
+}
+
+#main-title {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 2%;
+}
+
+#re-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.episode {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.episode-title {
+    margin-bottom: 1%;
+}
+
+.episode-btn {
+
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-link {
+    height: auto;
+    width: 35px;
+}
+
+#facebook {
+
+}
+
+#instagram {
+
+}
+
+#twitter {
+
+}
+
+#patreon {
+
+}
+
+/* Schedule */
+
+#schedule {
+    text-align: center;
+}
+
+#cal-intro {
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+#cal-holder {
+    margin-top: 5%;
+    width: 500px;
+    height: auto;
+}
