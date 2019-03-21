@@ -69,13 +69,13 @@ main {
     margin-bottom: 5%;
 }
 
-.episode {
+.home-episode {
     margin-left: 5%;
     margin-bottom: 5%;
     display: flex;
 }
 
-.episode-title {
+.home-episode-title {
     font-size: 20px;
     margin-bottom: 1%;
     margin-left: 5%;
@@ -99,7 +99,7 @@ a.download:hover {
 
 .download {
     margin-top: 1%;
-    margin-left: 5%;
+    margin-left: 6%;
 }
 
 footer {
@@ -147,4 +147,25 @@ footer {
     margin-top: 5%;
     width: 500px;
     height: auto;
+}
+
+/* Episodes */
+
+.episode-title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.episode-player {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    overflow: auto;
 }
