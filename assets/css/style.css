@@ -20,15 +20,15 @@ header {
     overflow: auto;
 }
 
-a:link {
+a.tab:link {
     color: white;
 }
 
-a:visited {
+a.tab:visited {
     color: white;
 }
 
-a:hover {
+a.tab:hover {
     color: orange;
 }
 
@@ -66,19 +66,40 @@ main {
 #re-title {
     text-align: center;
     font-size: 30px;
+    margin-bottom: 5%;
 }
 
 .episode {
     margin-left: 5%;
     margin-bottom: 5%;
+    display: flex;
 }
 
 .episode-title {
+    font-size: 20px;
     margin-bottom: 1%;
+    margin-left: 5%;
 }
 
-.episode-btn {
+.player {
 
+}
+
+a.download:link {
+    color: black;
+}
+
+a.download:visited {
+    color: black;
+}
+
+a.download:hover {
+    color: blue;
+}
+
+.download {
+    margin-top: 1%;
+    margin-left: 5%;
 }
 
 footer {

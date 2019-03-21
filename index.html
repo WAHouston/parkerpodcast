@@ -12,13 +12,13 @@
 </head>
 <body>
     <header>
-        <a id="home-link" href="index.html">Home</a>
+        <a class="tab" href="index.html">Home</a>
         <span class="divider">|</span>
-        <a id="schedule-link" href="schedule.html">Schedule</a>
+        <a class="tab" href="schedule.html">Schedule</a>
         <span class="divider">|</span>
-        <a id="episodes-link" href="episodes.html">Episodes</a>
+        <a class="tab" href="episodes.html">Episodes</a>
         <span class="divider">|</span>
-        <a id="contact-link" href="contact.html">Contact</a>
+        <a class="tab" href="contact.html">Contact</a>
     </header>
 
     <main>
@@ -38,20 +38,19 @@
             </div>
         </div>
         <h1 id="re-title">Recent Episodes</h1>
+        <h2 class="episode-title">Episode 1</h2>
         <div class="episode">
-            <h2 class="episode-title">Episode 1</h2>
-            <audio controls preload="auto">
+            <audio class="player" controls preload="auto">
                 <source src="assets/episodes/epiholder.wav" type="audio/wav"/>
-                <p>Your browser sucks... or I suck.</p>
             </audio>
-            <a href="assets/episodes/epitry.zip"  download="Episode1"><button>Download Episode 1</button></a>
+            <a class="download" href="assets/episodes/epitry.zip"  download="Episode1">Download Episode 1</a>
         </div>
+        <h2 class="episode-title">Episode 2</h2>
         <div class="episode">
-            <h2 class="episode-title">Episode 2</h2>
-            <audio controls preload="auto">
+            <audio class="player" controls preload="auto">
                 <source src="assets/episodes/epiholder.wav" type="audio/wav"/>
-                <p>Your browser sucks... or I suck.</p>
             </audio>
+            <a class="download" href="assets/episodes/epitry.zip"  download="Episode2">Download Episode 2</a>
         </div>
     </main>
 
