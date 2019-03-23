@@ -193,3 +193,17 @@ footer {
     overflow: auto;
 }
 
+@media screen and (max-width: 414px) {
+    header {
+        font-size: 18px;
+    }
+    .tab {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header {
+        font-size: 15px;
+    }
+}
